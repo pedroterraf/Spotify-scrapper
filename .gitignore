@@ -1,0 +1,21 @@
+# Secrets — never commit real Spotify tokens
+.env
+
+# Downloaded/processed audio (this pipeline generates a lot of it)
+*.mp3
+*.m4a
+*.wav
+*.flac
+*.ogg
+*.opus
+
+# Python
+__pycache__/
+*.py[cod]
+venv_audio/
+.venv/
+
+# IDE / OS
+.idea
+.vscode
+.DS_Store
